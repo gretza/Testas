@@ -1,0 +1,32 @@
+body {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer"
+}
+
+.header {
+    grid-area: header;
+    height: 50px;
+    width: 300px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.main {
+    grid-area: main;
+    height: 500px;
+    width: 300px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.footer {
+    grid-area: footer;
+    height: 50px;
+    width: 300px;
+    border: 2px solid red;
+    border-radius: 5px;
+}

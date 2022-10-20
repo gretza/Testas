@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(247, 231, 224);
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+    margin: 100px 200px;
+}
+
+.container-1 {
+    grid-column: 1 / 5;
+}
+
+.container-2 {
+    grid-column: 5 / -1;
+}
+
+.container-1,
+.container-2 {
+    border: 5px solid red;
+    border-radius: 5px;
+    height: 600px;
+    background-color: white;
+}

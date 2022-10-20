@@ -1,32 +1,37 @@
 body {
     display: grid;
-    grid-template-columns: auto;
     grid-template-areas:
     "header"
     "main"
-    "footer"
+    "footer";
+    background-color: rgb(247, 231, 224);
 }
 
 .header {
     grid-area: header;
-    height: 50px;
-    width: 300px;
-    border: 2px solid red;
-    border-radius: 5px;
 }
 
 .main {
     grid-area: main;
     height: 500px;
     width: 300px;
-    border: 2px solid red;
-    border-radius: 5px;
 }
 
 .footer {
     grid-area: footer;
+}
+
+.header,
+.footer{
     height: 50px;
     width: 300px;
+}
+
+.header,
+.main,
+.footer {
     border: 2px solid red;
     border-radius: 5px;
+    background-color: white;
+    margin: 0 auto;
 }

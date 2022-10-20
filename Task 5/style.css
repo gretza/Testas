@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.layout {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.box {
+    border: 5px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    width: 270px;
+    height: 200px;
+}
+
+.box__four {
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+
+.box__three {
+    grid-row-start: 3;
+    grid-column-start: 3;
+}
+
+.box__one {
+    grid-row-start: 4;
+    grid-column-start: 4;
+}
+
+.box__two {
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
